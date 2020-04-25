@@ -38,18 +38,18 @@ p
  {
     text-align: justify;
     font-size: large;
-    font-weight: normal;
+    font-weight: 500;
  }
  .pad
  {
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 40px;
  }
  .pad_data
  {
     text-align: justify;
      font-size: large;
-    font-weight: normal;
+    font-weight: 500;
  }
  ul li:hover{
      background-color:rgb(211,211,211);
@@ -94,6 +94,14 @@ p
 
     .hello3{
     height: 250px;
+    }
+    .about_us_content
+    {
+        font-weight: normal;
+    }
+    .pad_data
+    {
+        font-weight: normal;  
     }
 }
 .dob .x
