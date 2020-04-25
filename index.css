@@ -1,6 +1,19 @@
+html
+{
+    overflow-x: hidden;
+}
 .navbar-nav{
     font-family: Arial;
     font-size: 20px;
+}
+body
+{
+    /*font-family: 'Times New Roman', Times, serif;*/
+    overflow-x: hidden;
+}
+p
+{
+    font-weight: bolder;
 }
 .con{
     border:2px solid transparent;
@@ -12,7 +25,32 @@
      padding-left: 90px;
      padding-right: 90px;
  }
- 
+ .about
+ {
+    padding-top: 10px;
+ }
+ .about_us
+ {
+    text-align: left;
+     padding-bottom: 10px;
+ }
+ .about_us_content
+ {
+    text-align: justify;
+    font-size: large;
+    font-weight: normal;
+ }
+ .pad
+ {
+    padding-bottom: 30px;
+    padding-top: 30px;
+ }
+ .pad_data
+ {
+    text-align: justify;
+     font-size: large;
+    font-weight: normal;
+ }
  ul li:hover{
      background-color:rgb(211,211,211);
      font-weight: bolder;
@@ -33,44 +71,60 @@
     height: 720px;
      width: 1300;
  }
- @media (max-width: 600.98px) { 
-     .con{
-         border:2px solid transparent;
-     padding-left: 20px;
-     padding-right: 10px;
-     }
- }
- @media (max-width: 600.98px) { 
-     .hello1{
-         height: 250px;
-     }
- }
- @media (max-width: 600.98px) { 
-     .hello2{
-         height: 250px;
-     }
- }
- @media (max-width: 600.98px) { 
-     .hello3{
-         height: 250px;
-     }
- }
- @media (max-width: 600.98px) { 
-    .hello4{
-        padding-top: 4px;
-        text-align:center;
+ @media(max-width:978px)
+{
+    .hello
+    {
+        padding-top: 50px;
     }
-    @media (max-width: 600.98px) { 
-        .hello5{
-            padding-top: 4px;
-            text-align:center;
-        }
-        @media (max-width: 600.98px) { 
-            .hello6{
-                padding-top: 4px;
-                text-align:center;
-            }
-            @media (max-width: 600.98px) { 
-                .hello7{
-                    text-align:center;
-                }
+}
+ @media (max-width: 600.98px) { 
+    .con{
+    border:2px solid transparent;
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+    .hello1{
+    height: 250px;
+    }
+
+    .hello2{
+    height: 250px;
+    }
+
+    .hello3{
+    height: 250px;
+    }
+}
+.dob .x
+{
+    color:white;
+     padding-top:30px;
+}
+@media(max-width:800px)
+{
+    .dob .x{
+        padding-top:4px;
+    }
+}
+.dob
+{
+    padding-left: 50px;
+     padding-top: 50px;
+    padding-right: 50px;
+}
+@media(max-width:450px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
+    }
+}
+@media(max-width:978px)
+{
+    .ifr
+    {
+        padding-top: 80px;
+    }
+}
