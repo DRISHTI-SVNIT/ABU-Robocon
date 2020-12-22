@@ -21,6 +21,15 @@ p
      padding-right: 50px;
  }
  
+ .svnit_photo {
+    /* height:100px; */
+    width:180px;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
  .contact{
      padding-left: 90px;
      padding-right: 90px;
@@ -83,6 +92,12 @@ p
     border:2px solid transparent;
     padding-left: 20px;
     padding-right: 10px;
+    }
+    .svnit_photo {
+        margin-left: 0%;
+        /* height: 75px; */
+        width: 130px;
+        height: auto;
     }
     .hello1{
     height: 250px;
