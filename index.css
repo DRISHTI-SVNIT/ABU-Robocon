@@ -54,7 +54,6 @@
 
 
 
-
 html
 {
     overflow-x: hidden;
@@ -62,6 +61,14 @@ html
 .navbar-nav{
     /* font-family: Arial; */
     font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(200, 200, 200);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
 }
 
 .svnit_photo{
@@ -107,9 +114,102 @@ body
 
 
 
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/team_20_24.jpg);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
+}
+
+.innovation-image{
+    display: flex;
+    justify-content: center;
+}
+
+.innovation-image .innovation-title{
+    bottom: 0;
+    position:absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 30px black;
+}
+
+.innovation-image .innovation-title h3{
+    font-weight: bold;
+    letter-spacing: 0.7vw;
+    font-size: 4vw;
+    padding-bottom: 0;
+}
+
+.innovation-image .innovation-title h1{
+    font-weight: bolder;
+    letter-spacing: 0.5vw;
+    font-size: 8vw;
+    padding-bottom: 3vw;
+}
+
+.about-section{
+    display: flex;
+}
+
+.write-up-about{
+    width: 65%;
+    padding: 20px 30px 30px 70px;
+}
+
+ .about-us
+ {
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 10px;
+ }
+
+ .about-us-content
+ {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+ }
+
+.about-drishti-image{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innovation-section{
+    width: 100%;
+    padding: 40px 150px 40px 150px;
+    background-color: #202328;
+    color: #f8fafd;
+    background-image: url(images/robocon.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+}
+
+.innovation-section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.innovation-section p{
+    font-size: 20px;
+    text-align: justify;
+}
 
 
-
+/* 
 .main-div{
     width: 100%;
     height: 100vh;
@@ -210,6 +310,15 @@ body
     margin-top: 30px;
 }
 
+
+} */
+
+.robocon-status{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
 .robocon-year{
     width: 25%;
     text-align: center;
@@ -242,11 +351,7 @@ body
 
 .year-images img{
     width: 45%;
-    padding: 0px 0px 35px 40px;
-}
-
-
-
+    padding: 0px 0px 35px 40px;}
 
 
 
@@ -272,54 +377,20 @@ body
         margin-bottom: 0px;
     }
 
-    .svnit_photo{
-       width:120px;
-       height: auto;
-       margin-left: 0px;
-       margin-top: 0px;
-       margin-bottom: 0px;
-    }
-
     .main-div{
-        width: 100%;
-        height: auto;
-        background-image: none;
-        background-color: darkgray;
+        background-image: url(images/team_20_24.jpg);
+        height: 130vw;
+        /* background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; */
     }
-
-    .robocon-image{
-        display: flex;
-        justify-content: center;
-        height: 45vh;
-        background-image: url(images/t1.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        box-shadow: 0px -40px 60px 10px rgba(0, 0, 0, 0.9) inset, 0px 70px 90px 20px rgba(0, 0, 0, 0.7) inset;
-
-    }
-
-    .robocon-image .robocon-title{
-        top: 28vh;
-        position: relative;
-        text-align: center;
-        color: #fff;
-        text-shadow: 0 0 30px black;
-    }
-
-    .robocon-image .robocon-title h3{
-        font-weight: bold;
-        letter-spacing: 5px;
-        font-size: 20px;
+    .innovation-image .innovation-title h3{
+        font-size: 7vw;
         padding-bottom: 0;
     }
 
-    .robocon-image .robocon-title h1{
-        font-weight: bolder;
-        letter-spacing: 7px;
-        font-size: 40px;
-        padding-bottom: 0px;
+    .innovation-image .innovation-title h1{
+        font-size: 12vw;
+        padding-top: 0;
     }
 
     .about-section{
@@ -328,20 +399,20 @@ body
 
     .write-up-about{
         width: 100%;
-        padding: 0px 30px 10px 30px;
+        padding: 0px 20px 0px 20px;
     }
 
      .about-us
      {
-        text-align: center;
-        font-size: 30px;
+        text-align: left;
+        font-size: 25px;
         padding-bottom: 10px;
      }
 
      .about-us-content
      {
         text-align: justify;
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 400;
      }
 
@@ -353,32 +424,39 @@ body
     }
 
     .about-drishti-image img{
-        width: 70%;
+        width: 80%;
+        height: auto;
     }
 
-    .robocon-section{
+    .innovation-section{
         width: 100%;
-        padding: 40px 30px;
+        padding: 20px 20px 20px 20px;
         background-color: #202328;
         color: #f8fafd;
         background-image: url(images/robocon.jpg);
         background-blend-mode: overlay;
         background-size: cover;
-        background-position: center;
+        background-position: top;
         background-attachment: fixed;
         background-repeat: no-repeat;
         text-shadow: 0px 0px 30px rba(0,0,0,0.5);
     }
 
-    .robocon-section h1{
+    .innovation-section h1{
         text-align: center;
-        font-size: 35px;
+        font-size: 50px;
         font-weight: bolder;
-        padding: 15px 0px;
+        letter-spacing: 2px;
+        padding: 30px;
     }
-
-    .robocon-section p{
-        font-size: 13px;
+    .svnit_photo {
+        margin-left: 0%;
+        /* height: 75px; */
+        width: 130px;
+        height: auto;
+    }
+    .innovation-section p{
+        font-size: 17px;
         text-align: justify;
     }
 
@@ -423,4 +501,28 @@ body
         padding: 0px 15% 35px 15%;
     }
 
+}
+
+@media(max-width:450px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
+    }
+    /* h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding: 30px;
+    } */
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; 
+    }
+    .innovation-image .innovation-title{
+        position: relative;
+        top: 10px;
+    }
 }
